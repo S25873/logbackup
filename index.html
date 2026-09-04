@@ -584,8 +584,8 @@
     pngBtn.disabled=true; jpgBtn.disabled=true;
     var orig=btn.textContent; btn.textContent='저장 중…';
     var bgColor=themeById(state.theme).vars['--t-sheet']||'#ffffff';
-    var renderScale=isMobile?2:3;
-    var quality=type==='image/jpeg'?0.92:undefined;
+    var renderScale=isMobile?3:4;
+    var quality=type==='image/jpeg'?0.96:undefined;
     var ext=type==='image/jpeg'?'jpg':'png';
     var iosFallbackUrls=[];
 
